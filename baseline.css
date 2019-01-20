@@ -18,6 +18,12 @@ div.container {
    box-sizing: border-box;
    margin: 0 calc((100% - 800px) / 2);
 }
+@media only screen and (max-width: 800px) {
+   div.container {
+      margin: 0;
+      width: 100%;
+   }
+}
 
 /* Links and Buttons */
 a {
